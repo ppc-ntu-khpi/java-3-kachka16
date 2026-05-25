@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int[] number = {1,2,3,4,33,2,21,75,68}; //масив з чисел
+        int result = Exercise.Calculate(number);//зберігає результат після Calculate
+        System.out.println("Penultimate largest number is: " + result);// виводить результат
     }
 }
